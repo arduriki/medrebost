@@ -1,18 +1,24 @@
 R_DEF: Internal format may change without notice
 local
 color black
+color teal_700
 color white
 drawable addicon
+drawable cameraborders
 drawable gradient_main
+drawable ic_action_close
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable medslogo
 id acc_signUp_btn
 id addBtn
+id close
+id container
 id create_account
 id email
 id email_create
 id email_signin
+id imageqr
 id med_description_list
 id med_image_list
 id med_row_username
@@ -20,15 +26,20 @@ id med_title_list
 id medlogo_iv
 id password
 id password_create
+id previewView
 id textView
 id textWelcome
 id textWelcome2
+id txt_link
+id txt_title
 id username_create_ET
+id visit
 layout activity_main
 layout activity_meds_list
 layout activity_qr_code_scanner
 layout activity_sign_up
 layout activity_splash
+layout bottom_dialog
 layout medicament_fila
 mipmap ic_launcher
 mipmap ic_launcher_round

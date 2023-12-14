@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.teknos.m8uf2.jardura.app-mergeDebugResources-38:/values-my/values-my.xml",
+            "outputFile": "com.teknos.m8uf2.jardura.app-mergeDebugResources-44:/values-my/values-my.xml",
             "map": [
                 {
                     "source": "/home/arduriki/.gradle/caches/transforms-3/8e5c0e96f52174c19ec09b37882335cb/transformed/material-1.10.0/res/values-my/values-my.xml",

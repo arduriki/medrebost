@@ -646,6 +646,7 @@ attr imagePanX
 attr imagePanY
 attr imageRotate
 attr imageZoom
+attr implementationMode
 attr indeterminateAnimationType
 attr indeterminateProgressStyle
 attr indicatorColor
@@ -1012,6 +1013,7 @@ attr round
 attr roundPercent
 attr saturation
 attr scaleFromTextSize
+attr scaleType
 attr scopeUris
 attr scrimAnimationDuration
 attr scrimBackground
@@ -2081,6 +2083,7 @@ color switch_thumb_material_dark
 color switch_thumb_material_light
 color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
+color teal_700
 color tooltip_background_dark
 color tooltip_background_light
 color white
@@ -2971,6 +2974,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable cameraborders
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -2998,6 +3002,7 @@ drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable gradient_main
+drawable ic_action_close
 drawable ic_arrow_back_black_24
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
@@ -3216,8 +3221,10 @@ id clear_text
 id clip_horizontal
 id clip_vertical
 id clockwise
+id close
 id closest
 id collapseActionView
+id compatible
 id compress
 id confirm_button
 id constraint
@@ -3285,6 +3292,9 @@ id expand_activities_button
 id expanded_menu
 id fade
 id fill
+id fillCenter
+id fillEnd
+id fillStart
 id fill_horizontal
 id fill_vertical
 id filled
@@ -3322,6 +3332,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageqr
 id immediateStop
 id included
 id indeterminate
@@ -3459,10 +3470,12 @@ id path
 id pathRelative
 id peekHeight
 id percent
+id performance
 id pin
 id position
 id postLayout
 id pressed
+id previewView
 id progress_circular
 id progress_horizontal
 id radio
@@ -3586,6 +3599,8 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id txt_link
+id txt_title
 id unchecked
 id uniform
 id unlabeled
@@ -3601,6 +3616,7 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id visit
 id west
 id wide
 id withText
@@ -3731,6 +3747,7 @@ layout activity_meds_list
 layout activity_qr_code_scanner
 layout activity_sign_up
 layout activity_splash
+layout bottom_dialog
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
@@ -5235,6 +5252,7 @@ styleable OnClick clickAction targetId
 styleable OnSwipe autoCompleteMode dragDirection dragScale dragThreshold limitBoundsTo maxAcceleration maxVelocity moveWhenScrollAtTop nestedScrollFlags onTouchUp rotationCenterId springBoundary springDamping springMass springStiffness springStopThreshold touchAnchorId touchAnchorSide touchRegionId
 styleable PopupWindow android_popupBackground android_popupAnimationStyle overlapAnchor
 styleable PopupWindowBackgroundState state_above_anchor
+styleable PreviewView implementationMode scaleType
 styleable PropertySet android_visibility android_alpha layout_constraintTag motionProgress visibilityMode
 styleable RadialViewGroup materialCircleRadius
 styleable RangeSlider minSeparation values

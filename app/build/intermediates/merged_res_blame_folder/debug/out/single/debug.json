@@ -1,102 +1,114 @@
 [
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-40:/xml_backup_rules.xml.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-42:/xml/backup_rules.xml"
+        "merged": "com.teknos.m8uf2.jardura.app-merged_res-46:/layout_activity_meds_list.xml.flat",
+        "source": "com.teknos.m8uf2.jardura.app-main-48:/layout/activity_meds_list.xml"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-40:/layout_activity_splash.xml.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-42:/layout/activity_splash.xml"
+        "merged": "com.teknos.m8uf2.jardura.app-merged_res-46:/drawable_medslogo.png.flat",
+        "source": "com.teknos.m8uf2.jardura.app-main-48:/drawable/medslogo.png"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-40:/drawable_addicon.png.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-42:/drawable/addicon.png"
+        "merged": "com.teknos.m8uf2.jardura.app-merged_res-46:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.teknos.m8uf2.jardura.app-main-48:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-40:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-42:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "com.teknos.m8uf2.jardura.app-merged_res-46:/drawable_gradient_main.xml.flat",
+        "source": "com.teknos.m8uf2.jardura.app-main-48:/drawable/gradient_main.xml"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-40:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-42:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "com.teknos.m8uf2.jardura.app-merged_res-46:/drawable_cameraborders.xml.flat",
+        "source": "com.teknos.m8uf2.jardura.app-main-48:/drawable/cameraborders.xml"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-40:/drawable_gradient_main.xml.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-42:/drawable/gradient_main.xml"
+        "merged": "com.teknos.m8uf2.jardura.app-merged_res-46:/drawable_ic_action_close.xml.flat",
+        "source": "com.teknos.m8uf2.jardura.app-main-48:/drawable/ic_action_close.xml"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-40:/layout_activity_main.xml.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-42:/layout/activity_main.xml"
+        "merged": "com.teknos.m8uf2.jardura.app-merged_res-46:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.teknos.m8uf2.jardura.app-main-48:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-40:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-42:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "com.teknos.m8uf2.jardura.app-merged_res-46:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.teknos.m8uf2.jardura.app-main-48:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-40:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-42:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "com.teknos.m8uf2.jardura.app-merged_res-46:/layout_activity_sign_up.xml.flat",
+        "source": "com.teknos.m8uf2.jardura.app-main-48:/layout/activity_sign_up.xml"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-40:/layout_activity_sign_up.xml.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-42:/layout/activity_sign_up.xml"
+        "merged": "com.teknos.m8uf2.jardura.app-merged_res-46:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.teknos.m8uf2.jardura.app-main-48:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-40:/drawable_medslogo.png.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-42:/drawable/medslogo.png"
+        "merged": "com.teknos.m8uf2.jardura.app-merged_res-46:/layout_activity_main.xml.flat",
+        "source": "com.teknos.m8uf2.jardura.app-main-48:/layout/activity_main.xml"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-40:/layout_activity_qr_code_scanner.xml.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-42:/layout/activity_qr_code_scanner.xml"
+        "merged": "com.teknos.m8uf2.jardura.app-merged_res-46:/drawable_addicon.png.flat",
+        "source": "com.teknos.m8uf2.jardura.app-main-48:/drawable/addicon.png"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-40:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-42:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.teknos.m8uf2.jardura.app-merged_res-46:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.teknos.m8uf2.jardura.app-main-48:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-40:/layout_medicament_fila.xml.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-42:/layout/medicament_fila.xml"
+        "merged": "com.teknos.m8uf2.jardura.app-merged_res-46:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.teknos.m8uf2.jardura.app-main-48:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-40:/layout_activity_meds_list.xml.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-42:/layout/activity_meds_list.xml"
+        "merged": "com.teknos.m8uf2.jardura.app-merged_res-46:/layout_activity_qr_code_scanner.xml.flat",
+        "source": "com.teknos.m8uf2.jardura.app-main-48:/layout/activity_qr_code_scanner.xml"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-40:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-42:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "com.teknos.m8uf2.jardura.app-merged_res-46:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.teknos.m8uf2.jardura.app-main-48:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-40:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-42:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.teknos.m8uf2.jardura.app-merged_res-46:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.teknos.m8uf2.jardura.app-main-48:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-40:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-42:/drawable/ic_launcher_foreground.xml"
+        "merged": "com.teknos.m8uf2.jardura.app-merged_res-46:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.teknos.m8uf2.jardura.app-main-48:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-40:/xml_data_extraction_rules.xml.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-42:/xml/data_extraction_rules.xml"
+        "merged": "com.teknos.m8uf2.jardura.app-merged_res-46:/xml_backup_rules.xml.flat",
+        "source": "com.teknos.m8uf2.jardura.app-main-48:/xml/backup_rules.xml"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-40:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-42:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "com.teknos.m8uf2.jardura.app-merged_res-46:/layout_bottom_dialog.xml.flat",
+        "source": "com.teknos.m8uf2.jardura.app-main-48:/layout/bottom_dialog.xml"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-40:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-42:/drawable/ic_launcher_background.xml"
+        "merged": "com.teknos.m8uf2.jardura.app-merged_res-46:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.teknos.m8uf2.jardura.app-main-48:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-40:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-42:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "com.teknos.m8uf2.jardura.app-merged_res-46:/xml_data_extraction_rules.xml.flat",
+        "source": "com.teknos.m8uf2.jardura.app-main-48:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-40:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-42:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "com.teknos.m8uf2.jardura.app-merged_res-46:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.teknos.m8uf2.jardura.app-main-48:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-40:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-42:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "com.teknos.m8uf2.jardura.app-merged_res-46:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.teknos.m8uf2.jardura.app-main-48:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-40:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-42:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "com.teknos.m8uf2.jardura.app-merged_res-46:/layout_activity_splash.xml.flat",
+        "source": "com.teknos.m8uf2.jardura.app-main-48:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.teknos.m8uf2.jardura.app-merged_res-46:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.teknos.m8uf2.jardura.app-main-48:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.teknos.m8uf2.jardura.app-merged_res-46:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.teknos.m8uf2.jardura.app-main-48:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.teknos.m8uf2.jardura.app-merged_res-46:/layout_medicament_fila.xml.flat",
+        "source": "com.teknos.m8uf2.jardura.app-main-48:/layout/medicament_fila.xml"
     }
 ]

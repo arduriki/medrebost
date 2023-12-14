@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.teknos.m8uf2.jardura.app-mergeDebugResources-38:/values-en-rCA/values-en-rCA.xml",
+            "outputFile": "com.teknos.m8uf2.jardura.app-mergeDebugResources-44:/values-en-rCA/values-en-rCA.xml",
             "map": [
                 {
                     "source": "/home/arduriki/.gradle/caches/transforms-3/2e6153425324545fcd287a2f319ce459/transformed/core-1.9.0/res/values-en-rCA/values-en-rCA.xml",

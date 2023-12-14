@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.teknos.m8uf2.jardura.app-mergeDebugResources-38:/values-be/values-be.xml",
+            "outputFile": "com.teknos.m8uf2.jardura.app-mergeDebugResources-44:/values-be/values-be.xml",
             "map": [
                 {
                     "source": "/home/arduriki/.gradle/caches/transforms-3/82d07ae84b4f1e40d5597894514a0153/transformed/jetified-play-services-base-18.1.0/res/values-be/values.xml",
