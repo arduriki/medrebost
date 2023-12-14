@@ -2,10 +2,13 @@ R_DEF: Internal format may change without notice
 local
 color black
 color white
+drawable addicon
 drawable gradient_main
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable medslogo
 id acc_signUp_btn
+id addBtn
 id create_account
 id email
 id email_create
@@ -14,6 +17,7 @@ id med_description_list
 id med_image_list
 id med_row_username
 id med_title_list
+id medlogo_iv
 id password
 id password_create
 id textView
@@ -22,7 +26,9 @@ id textWelcome2
 id username_create_ET
 layout activity_main
 layout activity_meds_list
+layout activity_qr_code_scanner
 layout activity_sign_up
+layout activity_splash
 layout medicament_fila
 mipmap ic_launcher
 mipmap ic_launcher_round
@@ -33,6 +39,7 @@ string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
 string project_id
+string submit
 style Base.Theme.Medrebost
 style Theme.Medrebost
 xml backup_rules

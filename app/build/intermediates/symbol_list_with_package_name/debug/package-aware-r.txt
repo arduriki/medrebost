@@ -2960,6 +2960,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable addicon
 drawable avd_hide_password
 drawable avd_show_password
 drawable btn_checkbox_checked_mtrl
@@ -3033,6 +3034,7 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable medslogo
 drawable mtrl_bottomsheet_drag_handle
 drawable mtrl_checkbox_button
 drawable mtrl_checkbox_button_checked_unchecked
@@ -3158,6 +3160,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addBtn
 id adjust_height
 id adjust_width
 id alertTitle
@@ -3370,6 +3373,7 @@ id med_description_list
 id med_image_list
 id med_row_username
 id med_title_list
+id medlogo_iv
 id message
 id middle
 id mini
@@ -3724,7 +3728,9 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
 layout activity_meds_list
+layout activity_qr_code_scanner
 layout activity_sign_up
+layout activity_splash
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
@@ -3997,6 +4003,7 @@ string searchview_navigation_content_description
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow
+string submit
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
