@@ -1,10 +1,12 @@
-package com.teknos.m8uf2.jardura;
+package com.teknos.m8uf2.jardura.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+
+import com.teknos.m8uf2.jardura.R;
 
 public class SplashActivity extends AppCompatActivity {
 

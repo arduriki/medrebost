@@ -22,10 +22,10 @@
         android:theme="@style/Theme.Medrebost"
         tools:targetApi="31">
         <activity
-            android:name=".QrCodeScannerActivity"
+            android:name=".activities.QrCodeScannerActivity"
             android:exported="false" />
         <activity
-            android:name=".SplashActivity"
+            android:name=".activities.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -34,13 +34,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MedsListActivity"
+            android:name=".activities.MedsListActivity"
             android:exported="false" />
         <activity
-            android:name=".SignUpActivity"
+            android:name=".activities.SignUpActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

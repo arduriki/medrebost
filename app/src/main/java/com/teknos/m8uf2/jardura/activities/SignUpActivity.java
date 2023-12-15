@@ -1,4 +1,4 @@
-package com.teknos.m8uf2.jardura;
+package com.teknos.m8uf2.jardura.activities;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -17,6 +17,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.CollectionReference;
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.teknos.m8uf2.jardura.R;
 
 public class SignUpActivity extends AppCompatActivity {
 
