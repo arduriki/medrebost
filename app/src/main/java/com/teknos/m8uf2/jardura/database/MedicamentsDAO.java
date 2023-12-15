@@ -1,5 +1,6 @@
 package com.teknos.m8uf2.jardura.database;
 
+import androidx.lifecycle.LiveData;
 import androidx.room.Dao;
 import androidx.room.Delete;
 import androidx.room.Insert;
@@ -23,5 +24,5 @@ public interface MedicamentsDAO {
     void update(Medicaments medicament);
 
     @Query("SELECT * FROM medicaments")
-    List<Medicaments> getAllMedicaments();
+    LiveData<List<Medicaments>> getAllMedicaments();
 }
