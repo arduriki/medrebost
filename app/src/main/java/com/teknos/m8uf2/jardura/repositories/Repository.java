@@ -1,9 +1,13 @@
 package com.teknos.m8uf2.jardura.repositories;
 
+import android.app.Application;
 import android.os.Handler;
 import android.os.Looper;
 
+import androidx.lifecycle.LiveData;
+
 import com.teknos.m8uf2.jardura.database.MedicamentsDAO;
+import com.teknos.m8uf2.jardura.database.MedicamentsDatabase;
 import com.teknos.m8uf2.jardura.entitats.Medicaments;
 
 import java.util.List;
@@ -15,8 +19,10 @@ public class Repository {
     ExecutorService executor;
     Handler handler;
 
-    public Repository(MedicamentsDAO medicamentsDAO) {
-        this.medicamentsDAO = medicamentsDAO;
+    public Repository(Application application) {
+
+        MedicamentsDatabase medicamentsDatabase = MedicamentsDatabase.getInstance(application);
+        this.medicamentsDAO = medicamentsDatabase.getMedicamentDAO();
 
         // Used for Background Database Operations
         executor = Executors.newSingleThreadExecutor();
@@ -55,7 +61,7 @@ public class Repository {
         });
     }
 
-    public List<Medicaments> getAllMedicaments() {
+    public LiveData<List<Medicaments>> getAllMedicaments() {
         return medicamentsDAO.getAllMedicaments();
     }
 }

@@ -52,10 +52,13 @@
         android:testOnly="true"
         android:theme="@style/Theme.Medrebost" >
         <activity
-            android:name="com.teknos.m8uf2.jardura.QrCodeScannerActivity"
+            android:name="com.teknos.m8uf2.jardura.activities.AddNewMedicineActivity"
             android:exported="false" />
         <activity
-            android:name="com.teknos.m8uf2.jardura.SplashActivity"
+            android:name="com.teknos.m8uf2.jardura.activities.QrCodeScannerActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.teknos.m8uf2.jardura.activities.SplashActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -64,13 +67,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.teknos.m8uf2.jardura.MedsListActivity"
+            android:name="com.teknos.m8uf2.jardura.activities.MedsListActivity"
             android:exported="false" />
         <activity
-            android:name="com.teknos.m8uf2.jardura.SignUpActivity"
+            android:name="com.teknos.m8uf2.jardura.activities.SignUpActivity"
             android:exported="false" />
         <activity
-            android:name="com.teknos.m8uf2.jardura.MainActivity"
+            android:name="com.teknos.m8uf2.jardura.activities.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -82,7 +85,6 @@
         <meta-data
             android:name="com.google.mlkit.vision.DEPENDENCIES"
             android:value="barcode" />
-        <!-- To use multiple models: android:value="barcode,model2,model3" -->
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"
@@ -169,6 +171,10 @@
             </intent-filter>
         </activity>
 
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
+            android:exported="false" />
         <service
             android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
             android:directBootAware="true"

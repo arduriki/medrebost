@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.teknos.m8uf2.jardura.app-mergeDebugResources-50:/layout/activity_add_new_medicine.xml",
+        "source": "com.teknos.m8uf2.jardura.app-main-53:/layout/activity_add_new_medicine.xml"
+    },
+    {
+        "merged": "com.teknos.m8uf2.jardura.app-mergeDebugResources-50:/layout/medicament_item.xml",
+        "source": "com.teknos.m8uf2.jardura.app-main-53:/layout/medicament_item.xml"
+    },
+    {
+        "merged": "com.teknos.m8uf2.jardura.app-mergeDebugResources-50:/layout/activity_meds_list.xml",
+        "source": "com.teknos.m8uf2.jardura.app-main-53:/layout/activity_meds_list.xml"
+    }
+]

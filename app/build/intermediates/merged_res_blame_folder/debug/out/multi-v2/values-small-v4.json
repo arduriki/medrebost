@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.teknos.m8uf2.jardura.app-mergeDebugResources-44:/values-small-v4/values-small-v4.xml",
+            "outputFile": "com.teknos.m8uf2.jardura.app-mergeDebugResources-49:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "/home/arduriki/.gradle/caches/transforms-3/8e5c0e96f52174c19ec09b37882335cb/transformed/material-1.10.0/res/values-small-v4/values-small-v4.xml",
+                    "source": "/home/arduriki/.gradle/caches/transforms-3/1af505152c8f3248dfd5456c8b67580a/transformed/material-1.11.0/res/values-small-v4/values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

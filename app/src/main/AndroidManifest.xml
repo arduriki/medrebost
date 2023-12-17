@@ -3,13 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools">
     <!-- Permission to connect to the Internet -->
     <uses-permission android:name="android.permission.INTERNET" />
-
     <uses-permission android:name="android.permission.CAMERA" />
+
     <uses-feature
         android:name="android.hardware.camera"
         android:required="true" />
-    <uses-feature android:name="android.hardware.camera.full"/>
-
+    <uses-feature android:name="android.hardware.camera.full" />
 
     <application
         android:allowBackup="true"
@@ -21,6 +20,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Medrebost"
         tools:targetApi="31">
+        <activity
+            android:name=".activities.AddNewMedicineActivity"
+            android:exported="false" />
         <activity
             android:name=".activities.QrCodeScannerActivity"
             android:exported="false" />
@@ -52,8 +54,6 @@
         <meta-data
             android:name="com.google.mlkit.vision.DEPENDENCIES"
             android:value="barcode" />
-        <!-- To use multiple models: android:value="barcode,model2,model3" -->
-
     </application>
 
 </manifest>
