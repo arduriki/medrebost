@@ -3311,6 +3311,8 @@ id easeOut
 id east
 id edge
 id editBtn
+id editFabricantEt
+id editNameEt
 id edit_query
 id elastic
 id email
@@ -3522,6 +3524,7 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id saveBtn
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3780,6 +3783,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_new_medicine
+layout activity_edit_med
 layout activity_main
 layout activity_med_detail
 layout activity_meds_list

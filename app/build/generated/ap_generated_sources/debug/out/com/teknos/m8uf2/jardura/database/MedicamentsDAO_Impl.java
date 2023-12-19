@@ -181,6 +181,48 @@ public final class MedicamentsDAO_Impl implements MedicamentsDAO {
     });
   }
 
+  @Override
+  public Medicaments getMedicamentById(final int id) {
+    final String _sql = "SELECT * FROM medicaments WHERE id = ?";
+    final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 1);
+    int _argIndex = 1;
+    _statement.bindLong(_argIndex, id);
+    __db.assertNotSuspendingTransaction();
+    final Cursor _cursor = DBUtil.query(__db, _statement, false, null);
+    try {
+      final int _cursorIndexOfId = CursorUtil.getColumnIndexOrThrow(_cursor, "id");
+      final int _cursorIndexOfNomMedicament = CursorUtil.getColumnIndexOrThrow(_cursor, "nom_medicament");
+      final int _cursorIndexOfFabricantMedicament = CursorUtil.getColumnIndexOrThrow(_cursor, "fabricant_medicament");
+      final Medicaments _result;
+      if (_cursor.moveToFirst()) {
+        _result = new Medicaments();
+        final int _tmpId;
+        _tmpId = _cursor.getInt(_cursorIndexOfId);
+        _result.setId(_tmpId);
+        final String _tmpNomMedicament;
+        if (_cursor.isNull(_cursorIndexOfNomMedicament)) {
+          _tmpNomMedicament = null;
+        } else {
+          _tmpNomMedicament = _cursor.getString(_cursorIndexOfNomMedicament);
+        }
+        _result.setNomMedicament(_tmpNomMedicament);
+        final String _tmpFabricantMedicament;
+        if (_cursor.isNull(_cursorIndexOfFabricantMedicament)) {
+          _tmpFabricantMedicament = null;
+        } else {
+          _tmpFabricantMedicament = _cursor.getString(_cursorIndexOfFabricantMedicament);
+        }
+        _result.setFabricantMedicament(_tmpFabricantMedicament);
+      } else {
+        _result = null;
+      }
+      return _result;
+    } finally {
+      _cursor.close();
+      _statement.release();
+    }
+  }
+
   @NonNull
   public static List<Class<?>> getRequiredConverters() {
     return Collections.emptyList();

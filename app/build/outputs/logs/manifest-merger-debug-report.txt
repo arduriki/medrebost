@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:2:1-62:12
-INJECTED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:2:1-62:12
-INJECTED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:2:1-62:12
-INJECTED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:2:1-62:12
+ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:2:1-65:12
 MERGED from [androidx.databinding:databinding-adapters:8.2.0] /home/arduriki/.gradle/caches/transforms-3/733d8d7ec3d26f1351823c7776165c30/transformed/databinding-adapters-8.2.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:databinding-runtime:8.2.0] /home/arduriki/.gradle/caches/transforms-3/7e9dc57b999dfe87a86a705b6c8509ab/transformed/databinding-runtime-8.2.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-analytics:21.5.0] /home/arduriki/.gradle/caches/transforms-3/4b4b64a538eb40becc077010ad72e7e3/transformed/jetified-firebase-analytics-21.5.0/AndroidManifest.xml:2:1-9:12
@@ -156,8 +156,8 @@ ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidMa
 	android:name
 		ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:11:19-62
 application
-ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:13:5-60:19
-INJECTED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:13:5-60:19
+ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:13:5-63:19
+INJECTED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:13:5-63:19
 MERGED from [com.google.firebase:firebase-analytics:21.5.0] /home/arduriki/.gradle/caches/transforms-3/4b4b64a538eb40becc077010ad72e7e3/transformed/jetified-firebase-analytics-21.5.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:21.5.0] /home/arduriki/.gradle/caches/transforms-3/4b4b64a538eb40becc077010ad72e7e3/transformed/jetified-firebase-analytics-21.5.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-database:20.3.0] /home/arduriki/.gradle/caches/transforms-3/9d0c1db6ee07e1699442564af4aa62b4/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:25:5-36:19
@@ -264,64 +264,70 @@ MERGED from [com.google.android.odml:image:1.0.0-beta1] /home/arduriki/.gradle/c
 		ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:21:9-47
 	android:dataExtractionRules
 		ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:15:9-65
-activity#com.teknos.m8uf2.jardura.activities.MedDetailActivity
+activity#com.teknos.m8uf2.jardura.activities.EditMedActivity
 ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:23:9-25:40
 	android:exported
 		ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:25:13-37
 	android:name
-		ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:24:13-57
-activity#com.teknos.m8uf2.jardura.activities.AddNewMedicineActivity
+		ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:24:13-55
+activity#com.teknos.m8uf2.jardura.activities.MedDetailActivity
 ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:26:9-28:40
 	android:exported
 		ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:28:13-37
 	android:name
-		ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:27:13-62
-activity#com.teknos.m8uf2.jardura.activities.QrCodeScannerActivity
+		ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:27:13-57
+activity#com.teknos.m8uf2.jardura.activities.AddNewMedicineActivity
 ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:29:9-31:40
 	android:exported
 		ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:30:13-61
+		ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:30:13-62
+activity#com.teknos.m8uf2.jardura.activities.QrCodeScannerActivity
+ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:33:13-61
 activity#com.teknos.m8uf2.jardura.activities.SplashActivity
-ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:32:9-40:20
+ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:35:9-43:20
 	android:exported
-		ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:34:13-36
+		ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:37:13-36
 	android:name
-		ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:33:13-54
+		ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:36:13-54
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:35:13-39:29
+ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:38:13-42:29
 action#android.intent.action.MAIN
-ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:36:17-69
+ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:39:17-69
 	android:name
-		ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:36:25-66
+		ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:39:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:38:17-77
+ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:41:17-77
 	android:name
-		ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:38:27-74
+		ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:41:27-74
 activity#com.teknos.m8uf2.jardura.activities.MedsListActivity
-ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:41:9-43:40
-	android:exported
-		ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:43:13-37
-	android:name
-		ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:42:13-56
-activity#com.teknos.m8uf2.jardura.activities.SignUpActivity
 ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:44:9-46:40
 	android:exported
 		ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:46:13-37
 	android:name
-		ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:45:13-54
-activity#com.teknos.m8uf2.jardura.activities.MainActivity
-ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:47:9-55:20
+		ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:45:13-56
+activity#com.teknos.m8uf2.jardura.activities.SignUpActivity
+ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:47:9-49:40
 	android:exported
-		ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:49:13-36
+		ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:49:13-37
 	android:name
-		ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:48:13-52
+		ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:48:13-54
+activity#com.teknos.m8uf2.jardura.activities.MainActivity
+ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:50:9-58:20
+	android:exported
+		ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:51:13-52
 meta-data#com.google.mlkit.vision.DEPENDENCIES
-ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:57:9-59:39
+ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:60:9-62:39
 	android:value
-		ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:59:13-36
+		ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:62:13-36
 	android:name
-		ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:58:13-64
+		ADDED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml:61:13-64
 uses-sdk
 INJECTED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/arduriki/Documents/AndroidJava/medrebost/app/src/main/AndroidManifest.xml

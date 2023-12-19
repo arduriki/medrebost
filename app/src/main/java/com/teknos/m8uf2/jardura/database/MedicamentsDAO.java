@@ -25,4 +25,7 @@ public interface MedicamentsDAO {
 
     @Query("SELECT * FROM medicaments")
     LiveData<List<Medicaments>> getAllMedicaments();
+
+    @Query("SELECT * FROM medicaments WHERE id = :id")
+    Medicaments getMedicamentById(int id);
 }

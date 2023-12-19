@@ -4,7 +4,6 @@ package com.teknos.m8uf2.jardura.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -18,9 +17,6 @@ import java.lang.Object;
 
 public abstract class MedicamentItemBinding extends ViewDataBinding {
   @NonNull
-  public final Button editBtn;
-
-  @NonNull
   public final TextView tvFabricant;
 
   @NonNull
@@ -30,9 +26,8 @@ public abstract class MedicamentItemBinding extends ViewDataBinding {
   protected Medicaments mMedicament;
 
   protected MedicamentItemBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      Button editBtn, TextView tvFabricant, TextView tvNom) {
+      TextView tvFabricant, TextView tvNom) {
     super(_bindingComponent, _root, _localFieldCount);
-    this.editBtn = editBtn;
     this.tvFabricant = tvFabricant;
     this.tvNom = tvNom;
   }

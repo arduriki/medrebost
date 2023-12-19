@@ -20,6 +20,8 @@ id create_account
 id detailFabricantTv
 id detailNameTv
 id editBtn
+id editFabricantEt
+id editNameEt
 id email
 id email_create
 id email_signin
@@ -29,6 +31,7 @@ id meds_recyclerview
 id password
 id password_create
 id previewView
+id saveBtn
 id scanBtn
 id submit
 id textWelcome
@@ -40,6 +43,7 @@ id txt_title
 id username_create_ET
 id visit
 layout activity_add_new_medicine
+layout activity_edit_med
 layout activity_main
 layout activity_med_detail
 layout activity_meds_list
