@@ -1,9 +1,11 @@
 package com.teknos.m8uf2.jardura.activities;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
+import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -57,11 +59,6 @@ public class MedsListActivity extends AppCompatActivity {
         AppViewModel appViewModel = new ViewModelProvider(this)
                 .get(AppViewModel.class);
 
-        /* Inserting a new medicament (for test)
-        Medicaments medicaments1 = new Medicaments(1, "Termalgin", "GlaxoSmithKline");
-        appViewModel.addNewMedicament(medicaments1);
-         */
-
         // Loading data from ROOM DB
         appViewModel.getAllMedicaments().observe(this,
                 new Observer<List<Medicaments>>() {
@@ -83,5 +80,21 @@ public class MedsListActivity extends AppCompatActivity {
 
         // Link RecyclerView with the Adapter
         recyclerView.setAdapter(appAdapter);
+
+        // Swipe to delete
+        new ItemTouchHelper(new ItemTouchHelper.SimpleCallback(0, ItemTouchHelper.LEFT) {
+            @Override
+            public boolean onMove(@NonNull RecyclerView recyclerView, @NonNull RecyclerView.ViewHolder viewHolder, @NonNull RecyclerView.ViewHolder target) {
+                return false;
+            }
+
+            @Override
+            public void onSwiped(@NonNull RecyclerView.ViewHolder viewHolder, int direction) {
+                // If swipe item to the left
+                Medicaments m = medicamentsArrayList.get(viewHolder.getAdapterPosition());
+
+                appViewModel.deleteMedicament(m);
+            }
+        }).attachToRecyclerView(recyclerView);
     }
 }

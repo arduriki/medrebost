@@ -3286,6 +3286,8 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id detailFabricantTv
+id detailNameTv
 id dialog_button
 id dimensions
 id direct
@@ -3308,6 +3310,7 @@ id easeInOut
 id easeOut
 id east
 id edge
+id editBtn
 id edit_query
 id elastic
 id email
@@ -3631,7 +3634,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
-id tvFrabricant
+id tvFabricant
 id tvNom
 id txt_link
 id txt_title
@@ -3778,6 +3781,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_new_medicine
 layout activity_main
+layout activity_med_detail
 layout activity_meds_list
 layout activity_qr_code_scanner
 layout activity_sign_up

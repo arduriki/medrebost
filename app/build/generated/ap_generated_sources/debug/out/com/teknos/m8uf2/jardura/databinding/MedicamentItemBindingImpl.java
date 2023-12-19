@@ -13,27 +13,29 @@ public class MedicamentItemBindingImpl extends MedicamentItemBinding  {
     private static final android.util.SparseIntArray sViewsWithIds;
     static {
         sIncludes = null;
-        sViewsWithIds = null;
+        sViewsWithIds = new android.util.SparseIntArray();
+        sViewsWithIds.put(R.id.editBtn, 3);
     }
     // views
     @NonNull
-    private final androidx.constraintlayout.widget.ConstraintLayout mboundView0;
+    private final androidx.cardview.widget.CardView mboundView0;
     // variables
     // values
     // listeners
     // Inverse Binding Event Handlers
 
     public MedicamentItemBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 3, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 4, sIncludes, sViewsWithIds));
     }
     private MedicamentItemBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
+            , (android.widget.Button) bindings[3]
             , (android.widget.TextView) bindings[2]
             , (android.widget.TextView) bindings[1]
             );
-        this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
+        this.mboundView0 = (androidx.cardview.widget.CardView) bindings[0];
         this.mboundView0.setTag(null);
-        this.tvFrabricant.setTag(null);
+        this.tvFabricant.setTag(null);
         this.tvNom.setTag(null);
         setRootTag(root);
         // listeners
@@ -112,7 +114,7 @@ public class MedicamentItemBindingImpl extends MedicamentItemBinding  {
         if ((dirtyFlags & 0x3L) != 0) {
             // api target 1
 
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.tvFrabricant, medicamentFabricantMedicament);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.tvFabricant, medicamentFabricantMedicament);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.tvNom, medicamentNomMedicament);
         }
     }

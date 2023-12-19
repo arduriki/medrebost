@@ -7,6 +7,7 @@ import androidx.databinding.DataBinderMapper;
 import androidx.databinding.DataBindingComponent;
 import androidx.databinding.ViewDataBinding;
 import com.teknos.m8uf2.jardura.databinding.ActivityAddNewMedicineBindingImpl;
+import com.teknos.m8uf2.jardura.databinding.ActivityMedDetailBindingImpl;
 import com.teknos.m8uf2.jardura.databinding.ActivityMedsListBindingImpl;
 import com.teknos.m8uf2.jardura.databinding.MedicamentItemBindingImpl;
 import java.lang.IllegalArgumentException;
@@ -22,14 +23,17 @@ import java.util.List;
 public class DataBinderMapperImpl extends DataBinderMapper {
   private static final int LAYOUT_ACTIVITYADDNEWMEDICINE = 1;
 
-  private static final int LAYOUT_ACTIVITYMEDSLIST = 2;
+  private static final int LAYOUT_ACTIVITYMEDDETAIL = 2;
 
-  private static final int LAYOUT_MEDICAMENTITEM = 3;
+  private static final int LAYOUT_ACTIVITYMEDSLIST = 3;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(3);
+  private static final int LAYOUT_MEDICAMENTITEM = 4;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(4);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.teknos.m8uf2.jardura.R.layout.activity_add_new_medicine, LAYOUT_ACTIVITYADDNEWMEDICINE);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.teknos.m8uf2.jardura.R.layout.activity_med_detail, LAYOUT_ACTIVITYMEDDETAIL);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.teknos.m8uf2.jardura.R.layout.activity_meds_list, LAYOUT_ACTIVITYMEDSLIST);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.teknos.m8uf2.jardura.R.layout.medicament_item, LAYOUT_MEDICAMENTITEM);
   }
@@ -48,6 +52,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
             return new ActivityAddNewMedicineBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for activity_add_new_medicine is invalid. Received: " + tag);
+        }
+        case  LAYOUT_ACTIVITYMEDDETAIL: {
+          if ("layout/activity_med_detail_0".equals(tag)) {
+            return new ActivityMedDetailBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for activity_med_detail is invalid. Received: " + tag);
         }
         case  LAYOUT_ACTIVITYMEDSLIST: {
           if ("layout/activity_meds_list_0".equals(tag)) {
@@ -117,10 +127,11 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(3);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(4);
 
     static {
       sKeys.put("layout/activity_add_new_medicine_0", com.teknos.m8uf2.jardura.R.layout.activity_add_new_medicine);
+      sKeys.put("layout/activity_med_detail_0", com.teknos.m8uf2.jardura.R.layout.activity_med_detail);
       sKeys.put("layout/activity_meds_list_0", com.teknos.m8uf2.jardura.R.layout.activity_meds_list);
       sKeys.put("layout/medicament_item_0", com.teknos.m8uf2.jardura.R.layout.medicament_item);
     }

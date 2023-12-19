@@ -12,6 +12,7 @@
            
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:background="@drawable/gradient_main"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".activities.MedsListActivity" android:tag="layout/activity_meds_list_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">

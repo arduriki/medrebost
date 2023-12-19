@@ -9,32 +9,54 @@
             type="com.teknos.m8uf2.jardura.entitats.Medicaments" />
     </data>
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_margin="16dp"
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        
-        <TextView
-            android:id="@+id/tvNom"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="@{medicament.nomMedicament}"
-            android:textSize="32sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+        android:layout_height="wrap_content"
+        android:elevation="20dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp">
 
-        <TextView
-            android:id="@+id/tvFrabricant"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="@{medicament.fabricantMedicament}"
-            android:textSize="24sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tvNom"/>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvNom"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@{medicament.nomMedicament}"
+                android:textSize="32sp"
+                app:layout_constraintEnd_toStartOf="@+id/editBtn"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvFabricant"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@{medicament.fabricantMedicament}"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toStartOf="@+id/editBtn"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvNom" />
+
+            <Button
+                android:id="@+id/editBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Editar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
 
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+
 </layout>

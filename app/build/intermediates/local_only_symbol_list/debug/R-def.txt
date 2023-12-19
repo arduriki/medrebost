@@ -17,6 +17,9 @@ id addNameEt
 id close
 id container
 id create_account
+id detailFabricantTv
+id detailNameTv
+id editBtn
 id email
 id email_create
 id email_signin
@@ -30,7 +33,7 @@ id scanBtn
 id submit
 id textWelcome
 id textWelcome2
-id tvFrabricant
+id tvFabricant
 id tvNom
 id txt_link
 id txt_title
@@ -38,6 +41,7 @@ id username_create_ET
 id visit
 layout activity_add_new_medicine
 layout activity_main
+layout activity_med_detail
 layout activity_meds_list
 layout activity_qr_code_scanner
 layout activity_sign_up

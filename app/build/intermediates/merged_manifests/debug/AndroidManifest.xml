@@ -52,6 +52,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Medrebost" >
         <activity
+            android:name="com.teknos.m8uf2.jardura.activities.MedDetailActivity"
+            android:exported="false" />
+        <activity
             android:name="com.teknos.m8uf2.jardura.activities.AddNewMedicineActivity"
             android:exported="false" />
         <activity

@@ -1,6 +1,8 @@
 package com.teknos.m8uf2.jardura.adapters;
 
+import android.content.Intent;
 import android.view.LayoutInflater;
+import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
@@ -8,6 +10,7 @@ import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.teknos.m8uf2.jardura.R;
+import com.teknos.m8uf2.jardura.activities.MedDetailActivity;
 import com.teknos.m8uf2.jardura.databinding.MedicamentItemBinding;
 import com.teknos.m8uf2.jardura.entitats.Medicaments;
 
@@ -40,9 +43,18 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.MedicamentsViewH
         // Called by recyclerview when it needs to display or update an item
         // at a specific position in the list or grid
 
-        Medicaments currentMedicament = medicaments.get(position);
+        final Medicaments currentMedicament = medicaments.get(position);
 
         holder.medicamentItemBinding.setMedicament(currentMedicament);
+
+        holder.medicamentItemBinding.getRoot().setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(view.getContext(), MedDetailActivity.class);
+                i.putExtra("Medicament", currentMedicament);
+                view.getContext().startActivity(i);
+            }
+        });
 
     }
 

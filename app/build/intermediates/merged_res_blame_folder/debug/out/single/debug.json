@@ -1,118 +1,122 @@
 [
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-51:/layout_activity_qr_code_scanner.xml.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-53:/layout/activity_qr_code_scanner.xml"
+        "merged": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-merged_res-51:/drawable_medslogo.png.flat",
+        "source": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/drawable/medslogo.png"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-51:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-53:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-merged_res-51:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-51:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-53:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-merged_res-51:/layout_activity_splash.xml.flat",
+        "source": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/layout/activity_splash.xml"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-51:/layout_activity_meds_list.xml.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-53:/layout/activity_meds_list.xml"
+        "merged": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-merged_res-51:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-51:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-53:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-merged_res-51:/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-51:/layout_activity_add_new_medicine.xml.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-53:/layout/activity_add_new_medicine.xml"
+        "merged": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-merged_res-51:/drawable_gradient_main.xml.flat",
+        "source": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/drawable/gradient_main.xml"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-51:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-53:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-merged_res-51:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-51:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-53:/drawable/ic_launcher_background.xml"
+        "merged": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-merged_res-51:/layout_activity_main.xml.flat",
+        "source": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/layout/activity_main.xml"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-51:/layout_bottom_dialog.xml.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-53:/layout/bottom_dialog.xml"
+        "merged": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-merged_res-51:/layout_activity_meds_list.xml.flat",
+        "source": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/layout/activity_meds_list.xml"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-51:/drawable_gradient_main.xml.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-53:/drawable/gradient_main.xml"
+        "merged": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-merged_res-51:/layout_activity_qr_code_scanner.xml.flat",
+        "source": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/layout/activity_qr_code_scanner.xml"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-51:/layout_activity_main.xml.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-53:/layout/activity_main.xml"
+        "merged": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-merged_res-51:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-51:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-53:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-merged_res-51:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-51:/layout_activity_splash.xml.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-53:/layout/activity_splash.xml"
+        "merged": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-merged_res-51:/drawable_cameraborders.xml.flat",
+        "source": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/drawable/cameraborders.xml"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-51:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-53:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-merged_res-51:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-51:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-53:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-merged_res-51:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-51:/drawable_cameraborders.xml.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-53:/drawable/cameraborders.xml"
+        "merged": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-merged_res-51:/layout_activity_sign_up.xml.flat",
+        "source": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/layout/activity_sign_up.xml"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-51:/xml_backup_rules.xml.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-53:/xml/backup_rules.xml"
+        "merged": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-merged_res-51:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-51:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-53:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-merged_res-51:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-51:/drawable_addicon.png.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-53:/drawable/addicon.png"
+        "merged": "com.teknos.m8uf2.jardura.app-merged_res-51:/layout_activity_med_detail.xml.flat",
+        "source": "com.teknos.m8uf2.jardura.app-main-53:/layout/activity_med_detail.xml"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-51:/drawable_ic_action_close.xml.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-53:/drawable/ic_action_close.xml"
+        "merged": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-merged_res-51:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-51:/drawable_medslogo.png.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-53:/drawable/medslogo.png"
+        "merged": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-merged_res-51:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-51:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-53:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-merged_res-51:/layout_bottom_dialog.xml.flat",
+        "source": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/layout/bottom_dialog.xml"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-51:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-53:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-merged_res-51:/layout_medicament_item.xml.flat",
+        "source": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/layout/medicament_item.xml"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-51:/layout_medicament_item.xml.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-53:/layout/medicament_item.xml"
+        "merged": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-merged_res-51:/xml_backup_rules.xml.flat",
+        "source": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/xml/backup_rules.xml"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-51:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-53:/drawable/ic_launcher_foreground.xml"
+        "merged": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-merged_res-51:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-51:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-53:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-merged_res-51:/drawable_ic_action_close.xml.flat",
+        "source": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/drawable/ic_action_close.xml"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-51:/xml_data_extraction_rules.xml.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-53:/xml/data_extraction_rules.xml"
+        "merged": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-merged_res-51:/xml_data_extraction_rules.xml.flat",
+        "source": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-51:/layout_activity_sign_up.xml.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-53:/layout/activity_sign_up.xml"
+        "merged": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-merged_res-51:/layout_activity_add_new_medicine.xml.flat",
+        "source": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/layout/activity_add_new_medicine.xml"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-51:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-53:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-merged_res-51:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-merged_res-51:/drawable_addicon.png.flat",
+        "source": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/drawable/addicon.png"
     }
 ]

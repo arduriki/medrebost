@@ -21,6 +21,9 @@
         android:theme="@style/Theme.Medrebost"
         tools:targetApi="31">
         <activity
+            android:name=".activities.MedDetailActivity"
+            android:exported="false" />
+        <activity
             android:name=".activities.AddNewMedicineActivity"
             android:exported="false" />
         <activity
