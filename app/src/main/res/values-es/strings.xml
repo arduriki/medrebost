@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">medrebost</string>
+    <string name="introdueix_el_nom">Introduce el nombre</string>
+    <string name="introdueix_el_fabricant">Introduce el fabricante</string>
+    <string name="guarda_la_medicina">Guarda la medicina</string>
+    <string name="contrassenya">Contraseña</string>
+    <string name="email">Email</string>
+    <string name="benvingut_da_a_medrebost">Bienvenido/a a MedRebost</string>
+    <string name="entra">ENTRA</string>
+    <string name="crea_un_compte">CREA UNA CUENTA</string>
+    <string name="editar">Editar</string>
+    <string name="contrasenya">Contraseña</string>
+    <string name="crea">CREAR</string>
+    <string name="usuari">Usuario</string>
+</resources>

@@ -21,17 +21,29 @@
         android:layout_height="match_parent"
         tools:context=".activities.AddNewMedicineActivity">
 
+        <ImageView
+            android:id="@+id/medImageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="32dp"
+            android:onClick="onCaptureTakePhoto"
+            android:src="@drawable/cameraicon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
         <EditText
             android:id="@+id/addNameEt"
-            android:text="@={medicina.nomMedicament}"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:hint="Introdueix el nom"
+            android:hint="@string/introdueix_el_nom"
+            android:text="@={medicina.nomMedicament}"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toBottomOf="@+id/medImageView" />
 
         <EditText
             android:id="@+id/addFabricantEt"
@@ -39,7 +51,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:hint="Introdueix el fabricant"
+            android:hint="@string/introdueix_el_fabricant"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/addNameEt" />
@@ -50,7 +62,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
-            android:text="Guarda la medicina"
+            android:text="@string/guarda_la_medicina"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/addFabricantEt" />

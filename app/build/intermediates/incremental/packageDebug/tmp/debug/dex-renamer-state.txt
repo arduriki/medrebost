@@ -1,4 +1,4 @@
-#Tue Dec 19 21:13:13 CET 2023
+#Tue Dec 19 21:47:49 CET 2023
 base.0=/Users/arduriki/Documents/AppsAndroid/medrebost/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 base.1=/Users/arduriki/Documents/AppsAndroid/medrebost/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
 base.10=/Users/arduriki/Documents/AppsAndroid/medrebost/app/build/intermediates/dex/debug/mergeExtDexDebug/classes3.dex

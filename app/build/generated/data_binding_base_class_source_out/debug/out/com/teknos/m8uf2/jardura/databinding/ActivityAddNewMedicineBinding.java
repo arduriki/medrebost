@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.databinding.Bindable;
@@ -25,6 +26,9 @@ public abstract class ActivityAddNewMedicineBinding extends ViewDataBinding {
   public final EditText addNameEt;
 
   @NonNull
+  public final ImageView medImageView;
+
+  @NonNull
   public final Button submit;
 
   @Bindable
@@ -34,10 +38,12 @@ public abstract class ActivityAddNewMedicineBinding extends ViewDataBinding {
   protected AddMedsClickHandler mClickHandler;
 
   protected ActivityAddNewMedicineBinding(Object _bindingComponent, View _root,
-      int _localFieldCount, EditText addFabricantEt, EditText addNameEt, Button submit) {
+      int _localFieldCount, EditText addFabricantEt, EditText addNameEt, ImageView medImageView,
+      Button submit) {
     super(_bindingComponent, _root, _localFieldCount);
     this.addFabricantEt = addFabricantEt;
     this.addNameEt = addNameEt;
+    this.medImageView = medImageView;
     this.submit = submit;
   }
 

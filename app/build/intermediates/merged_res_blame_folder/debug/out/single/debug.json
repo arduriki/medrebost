@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-merged_res-51:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/mipmap-hdpi/ic_launcher_round.webp"
-    },
-    {
         "merged": "/Users/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-merged_res-51:/layout_activity_edit_med.xml.flat",
         "source": "/Users/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/layout/activity_edit_med.xml"
+    },
+    {
+        "merged": "/Users/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-merged_res-51:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
         "merged": "/Users/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-merged_res-51:/mipmap-xhdpi_ic_launcher.webp.flat",
@@ -28,6 +28,10 @@
         "source": "/Users/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/drawable/cameraborders.xml"
     },
     {
+        "merged": "com.teknos.m8uf2.jardura.app-merged_res-51:/layout_activity_add_new_medicine.xml.flat",
+        "source": "com.teknos.m8uf2.jardura.app-main-53:/layout/activity_add_new_medicine.xml"
+    },
+    {
         "merged": "/Users/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-merged_res-51:/drawable_qrcodeicon.png.flat",
         "source": "/Users/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/drawable/qrcodeicon.png"
     },
@@ -48,6 +52,10 @@
         "source": "/Users/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "com.teknos.m8uf2.jardura.app-merged_res-51:/drawable_cameraicon.jpg.flat",
+        "source": "com.teknos.m8uf2.jardura.app-main-53:/drawable/cameraicon.jpg"
+    },
+    {
         "merged": "/Users/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-merged_res-51:/drawable_medslogo.png.flat",
         "source": "/Users/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/drawable/medslogo.png"
     },
@@ -56,12 +64,12 @@
         "source": "/Users/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/layout/activity_meds_list.xml"
     },
     {
-        "merged": "/Users/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-merged_res-51:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "/Users/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/drawable/ic_launcher_foreground.xml"
+        "merged": "/Users/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-merged_res-51:/drawable_logouticon.jpg.flat",
+        "source": "/Users/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/drawable/logouticon.jpg"
     },
     {
-        "merged": "com.teknos.m8uf2.jardura.app-merged_res-51:/menu_menu.xml.flat",
-        "source": "com.teknos.m8uf2.jardura.app-main-53:/menu/menu.xml"
+        "merged": "/Users/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-merged_res-51:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/drawable/ic_launcher_foreground.xml"
     },
     {
         "merged": "/Users/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-merged_res-51:/drawable_ic_launcher_background.xml.flat",

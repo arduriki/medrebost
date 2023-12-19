@@ -8,7 +8,7 @@
     tools:context=".activities.MainActivity">
 
     <EditText
-        android:hint="Contrassenya"
+        android:hint="@string/contrassenya"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/password"
@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/email"
         android:layout_margin="20dp"
-        android:hint="Email"
+        android:hint="@string/email"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textWelcome"/>
@@ -35,7 +35,7 @@
         android:layout_marginTop="200dp"
         android:id="@+id/textWelcome"
         android:textColor="@color/black"
-        android:text="Benvingut/da a MedRebost"
+        android:text="@string/benvingut_da_a_medrebost"
         android:textSize="20sp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -45,7 +45,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:text="ENTRA"
+        android:text="@string/entra"
         android:id="@+id/email_signin"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -56,7 +56,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/create_account"
-        android:text="CREA UN COMPTE"
+        android:text="@string/crea_un_compte"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"

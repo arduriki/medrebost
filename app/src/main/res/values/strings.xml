@@ -1,4 +1,16 @@
 <resources>
-    <string name="app_name">medrebost</string>
-    <string name="submit" />
+    <string name="app_name" translatable="false">medrebost</string>
+    <string name="submit" translatable="false" />
+    <string name="introdueix_el_nom">Introdueix el nom</string>
+    <string name="introdueix_el_fabricant">Introdueix el fabricant</string>
+    <string name="guarda_la_medicina">Guarda la medicina</string>
+    <string name="contrassenya">Contrassenya</string>
+    <string name="email">Email</string>
+    <string name="benvingut_da_a_medrebost">Benvingut/da a MedRebost</string>
+    <string name="entra">ENTRA</string>
+    <string name="crea_un_compte">CREA UN COMPTE</string>
+    <string name="editar">Editar</string>
+    <string name="contrasenya">Contrasenya</string>
+    <string name="crea">CREA</string>
+    <string name="usuari">Usuari</string>
 </resources>

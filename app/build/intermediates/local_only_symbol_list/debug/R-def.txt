@@ -9,10 +9,12 @@ color teal_700
 color white
 drawable addicon
 drawable cameraborders
+drawable cameraicon
 drawable gradient_main
 drawable ic_action_close
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable logouticon
 drawable medslogo
 drawable qrcodeicon
 font inconsolata
@@ -34,6 +36,7 @@ id email_create
 id email_signin
 id imageqr
 id logout
+id medImageView
 id medlogo_iv
 id meds_recyclerview
 id password
