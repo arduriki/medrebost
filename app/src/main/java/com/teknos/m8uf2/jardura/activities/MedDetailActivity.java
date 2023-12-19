@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.teknos.m8uf2.jardura.R;
 import com.teknos.m8uf2.jardura.database.MedicamentsDatabase;
 import com.teknos.m8uf2.jardura.databinding.ActivityMedDetailBinding;
@@ -36,6 +37,18 @@ public class MedDetailActivity extends AppCompatActivity {
                 Intent i = new Intent(v.getContext(), EditMedActivity.class);
                 i.putExtra("Medicament", medicament);
                 v.getContext().startActivity(i);
+            }
+        });
+
+        // Barcode scan button
+        FloatingActionButton scanButton = findViewById(R.id.scanBtn);
+
+        scanButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Launch QR code scanner
+                Intent i = new Intent(getApplicationContext(), QrCodeScannerActivity.class);
+                startActivity(i);
             }
         });
     }

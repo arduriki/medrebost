@@ -37,17 +37,5 @@ public class AddNewMedicineActivity extends AppCompatActivity {
 
         binding.setMedicina(medicaments);
         binding.setClickHandler(handler);
-
-        // Barcode scan button
-        FloatingActionButton scanButton = findViewById(R.id.scanBtn);
-
-        scanButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // Launch QR code scanner
-                Intent i = new Intent(getApplicationContext(), QrCodeScannerActivity.class);
-                startActivity(i);
-            }
-        });
     }
 }
