@@ -15,6 +15,7 @@ public class ActivityMedDetailBindingImpl extends ActivityMedDetailBinding  {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
         sViewsWithIds.put(R.id.editBtn, 3);
+        sViewsWithIds.put(R.id.scanBtn, 4);
     }
     // views
     @NonNull
@@ -77,13 +78,14 @@ public class ActivityMedDetailBindingImpl extends ActivityMedDetailBinding  {
     };
 
     public ActivityMedDetailBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 4, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 5, sIncludes, sViewsWithIds));
     }
     private ActivityMedDetailBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
             , (android.widget.TextView) bindings[2]
             , (android.widget.TextView) bindings[1]
             , (android.widget.Button) bindings[3]
+            , (com.google.android.material.floatingactionbutton.FloatingActionButton) bindings[4]
             );
         this.detailFabricantTv.setTag(null);
         this.detailNameTv.setTag(null);

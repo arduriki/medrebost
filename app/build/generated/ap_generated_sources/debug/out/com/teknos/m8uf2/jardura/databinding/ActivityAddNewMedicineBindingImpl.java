@@ -13,8 +13,7 @@ public class ActivityAddNewMedicineBindingImpl extends ActivityAddNewMedicineBin
     private static final android.util.SparseIntArray sViewsWithIds;
     static {
         sIncludes = null;
-        sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.scanBtn, 4);
+        sViewsWithIds = null;
     }
     // views
     @NonNull
@@ -78,13 +77,12 @@ public class ActivityAddNewMedicineBindingImpl extends ActivityAddNewMedicineBin
     };
 
     public ActivityAddNewMedicineBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 5, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 4, sIncludes, sViewsWithIds));
     }
     private ActivityAddNewMedicineBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
             , (android.widget.EditText) bindings[2]
             , (android.widget.EditText) bindings[1]
-            , (com.google.android.material.floatingactionbutton.FloatingActionButton) bindings[4]
             , (android.widget.Button) bindings[3]
             );
         this.addFabricantEt.setTag(null);

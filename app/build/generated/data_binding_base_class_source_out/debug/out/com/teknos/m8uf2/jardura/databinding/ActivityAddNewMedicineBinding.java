@@ -11,7 +11,6 @@ import androidx.annotation.Nullable;
 import androidx.databinding.Bindable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.teknos.m8uf2.jardura.R;
 import com.teknos.m8uf2.jardura.entitats.Medicaments;
 import com.teknos.m8uf2.jardura.handlers.AddMedsClickHandler;
@@ -26,9 +25,6 @@ public abstract class ActivityAddNewMedicineBinding extends ViewDataBinding {
   public final EditText addNameEt;
 
   @NonNull
-  public final FloatingActionButton scanBtn;
-
-  @NonNull
   public final Button submit;
 
   @Bindable
@@ -38,12 +34,10 @@ public abstract class ActivityAddNewMedicineBinding extends ViewDataBinding {
   protected AddMedsClickHandler mClickHandler;
 
   protected ActivityAddNewMedicineBinding(Object _bindingComponent, View _root,
-      int _localFieldCount, EditText addFabricantEt, EditText addNameEt,
-      FloatingActionButton scanBtn, Button submit) {
+      int _localFieldCount, EditText addFabricantEt, EditText addNameEt, Button submit) {
     super(_bindingComponent, _root, _localFieldCount);
     this.addFabricantEt = addFabricantEt;
     this.addNameEt = addNameEt;
-    this.scanBtn = scanBtn;
     this.submit = submit;
   }
 

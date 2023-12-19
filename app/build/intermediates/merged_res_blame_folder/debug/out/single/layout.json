@@ -1,26 +1,22 @@
 [
     {
-        "merged": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-mergeDebugResources-50:/layout/activity_edit_med.xml",
-        "source": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/layout/activity_edit_med.xml"
+        "merged": "com.teknos.m8uf2.jardura.app-mergeDebugResources-50:/layout/activity_add_new_medicine.xml",
+        "source": "com.teknos.m8uf2.jardura.app-main-53:/layout/activity_add_new_medicine.xml"
     },
     {
-        "merged": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-mergeDebugResources-50:/layout/activity_med_detail.xml",
-        "source": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/layout/activity_med_detail.xml"
+        "merged": "com.teknos.m8uf2.jardura.app-mergeDebugResources-50:/layout/medicament_item.xml",
+        "source": "com.teknos.m8uf2.jardura.app-main-53:/layout/medicament_item.xml"
     },
     {
-        "merged": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-mergeDebugResources-50:/layout/medicament_item.xml",
-        "source": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/layout/medicament_item.xml"
-    },
-    {
-        "merged": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-mergeDebugResources-50:/layout/activity_meds_list.xml",
-        "source": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/layout/activity_meds_list.xml"
+        "merged": "com.teknos.m8uf2.jardura.app-mergeDebugResources-50:/layout/activity_meds_list.xml",
+        "source": "com.teknos.m8uf2.jardura.app-main-53:/layout/activity_meds_list.xml"
     },
     {
         "merged": "com.teknos.m8uf2.jardura.app-mergeDebugResources-50:/layout/activity_edit_med.xml",
         "source": "com.teknos.m8uf2.jardura.app-main-53:/layout/activity_edit_med.xml"
     },
     {
-        "merged": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-mergeDebugResources-50:/layout/activity_add_new_medicine.xml",
-        "source": "/home/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/layout/activity_add_new_medicine.xml"
+        "merged": "com.teknos.m8uf2.jardura.app-mergeDebugResources-50:/layout/activity_med_detail.xml",
+        "source": "com.teknos.m8uf2.jardura.app-main-53:/layout/activity_med_detail.xml"
     }
 ]

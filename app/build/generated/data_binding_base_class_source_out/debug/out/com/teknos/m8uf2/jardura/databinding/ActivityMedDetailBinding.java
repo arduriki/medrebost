@@ -11,6 +11,7 @@ import androidx.annotation.Nullable;
 import androidx.databinding.Bindable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.teknos.m8uf2.jardura.R;
 import com.teknos.m8uf2.jardura.entitats.Medicaments;
 import java.lang.Deprecated;
@@ -26,15 +27,20 @@ public abstract class ActivityMedDetailBinding extends ViewDataBinding {
   @NonNull
   public final Button editBtn;
 
+  @NonNull
+  public final FloatingActionButton scanBtn;
+
   @Bindable
   protected Medicaments mMedicina;
 
   protected ActivityMedDetailBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      TextView detailFabricantTv, TextView detailNameTv, Button editBtn) {
+      TextView detailFabricantTv, TextView detailNameTv, Button editBtn,
+      FloatingActionButton scanBtn) {
     super(_bindingComponent, _root, _localFieldCount);
     this.detailFabricantTv = detailFabricantTv;
     this.detailNameTv = detailNameTv;
     this.editBtn = editBtn;
+    this.scanBtn = scanBtn;
   }
 
   public abstract void setMedicina(@Nullable Medicaments medicina);

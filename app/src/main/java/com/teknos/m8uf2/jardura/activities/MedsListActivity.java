@@ -9,8 +9,11 @@ import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 
 import com.teknos.m8uf2.jardura.R;
 import com.teknos.m8uf2.jardura.adapters.AppAdapter;
@@ -96,5 +99,22 @@ public class MedsListActivity extends AppCompatActivity {
                 appViewModel.deleteMedicament(m);
             }
         }).attachToRecyclerView(recyclerView);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        if (R.id.logout == item.getItemId()) {
+            Intent i = new Intent(MedsListActivity.this, MainActivity.class);
+            startActivity(i);
+            return true;
+        } else {
+            return super.onOptionsItemSelected(item);
+        }
     }
 }
