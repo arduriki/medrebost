@@ -4,7 +4,7 @@
             "outputFile": "com.teknos.m8uf2.jardura.app-mergeDebugResources-49:/values-h550dp-port-v13/values-h550dp-port-v13.xml",
             "map": [
                 {
-                    "source": "/Users/arduriki/.gradle/caches/transforms-3/1af505152c8f3248dfd5456c8b67580a/transformed/material-1.11.0/res/values-h550dp-port-v13/values-h550dp-port-v13.xml",
+                    "source": "C:\\Users\\Usuario\\.gradle\\caches\\transforms-3\\1af505152c8f3248dfd5456c8b67580a\\transformed\\material-1.11.0\\res\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

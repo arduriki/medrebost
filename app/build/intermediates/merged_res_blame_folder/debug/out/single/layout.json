@@ -1,26 +1,22 @@
 [
     {
-        "merged": "/Users/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-mergeDebugResources-50:/layout/activity_med_detail.xml",
-        "source": "/Users/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/layout/activity_med_detail.xml"
-    },
-    {
-        "merged": "/Users/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-mergeDebugResources-50:/layout/activity_edit_med.xml",
-        "source": "/Users/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/layout/activity_edit_med.xml"
-    },
-    {
         "merged": "com.teknos.m8uf2.jardura.app-mergeDebugResources-50:/layout/activity_add_new_medicine.xml",
         "source": "com.teknos.m8uf2.jardura.app-main-53:/layout/activity_add_new_medicine.xml"
     },
     {
-        "merged": "/Users/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-mergeDebugResources-50:/layout/activity_meds_list.xml",
-        "source": "/Users/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/layout/activity_meds_list.xml"
+        "merged": "com.teknos.m8uf2.jardura.app-mergeDebugResources-50:/layout/medicament_item.xml",
+        "source": "com.teknos.m8uf2.jardura.app-main-53:/layout/medicament_item.xml"
     },
     {
-        "merged": "/Users/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-mergeDebugResources-50:/layout/activity_add_new_medicine.xml",
-        "source": "/Users/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/layout/activity_add_new_medicine.xml"
+        "merged": "com.teknos.m8uf2.jardura.app-mergeDebugResources-50:/layout/activity_meds_list.xml",
+        "source": "com.teknos.m8uf2.jardura.app-main-53:/layout/activity_meds_list.xml"
     },
     {
-        "merged": "/Users/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-mergeDebugResources-50:/layout/medicament_item.xml",
-        "source": "/Users/arduriki/.gradle/daemon/8.5/com.teknos.m8uf2.jardura.app-main-53:/layout/medicament_item.xml"
+        "merged": "com.teknos.m8uf2.jardura.app-mergeDebugResources-50:/layout/activity_edit_med.xml",
+        "source": "com.teknos.m8uf2.jardura.app-main-53:/layout/activity_edit_med.xml"
+    },
+    {
+        "merged": "com.teknos.m8uf2.jardura.app-mergeDebugResources-50:/layout/activity_med_detail.xml",
+        "source": "com.teknos.m8uf2.jardura.app-main-53:/layout/activity_med_detail.xml"
     }
 ]
