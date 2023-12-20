@@ -2197,6 +2197,7 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="submit" translatable="false"/>
     <string name="usuari">Usuari</string>
+    <string name="valoracio" translatable="false">El desenvolupament Android mha semblat molt interessant perquè molts conceptes es poden traslladar a altres camps i frameworks. Probablement qui naprengui lany que ve es trobarà que haurà daprendre Kotlin + Jetpack Compose que és cap on vol tirar Google. Sens dubte, el desenvolupament daquesta tasca mha tornat a ensenyar el següent: limportància de familiaritzar-se amb la documentació. La nostra feina no és de tenir molt bona memòria, més aviat és saber on anar a buscar les eines que necessitem i llegir bé les seves instruccions per saber utilitzar-les. Moltes gràcies Francesc!</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

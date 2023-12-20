@@ -3050,6 +3050,7 @@ int drawable ic_mtrl_chip_checked_black 0x7f0800ab
 int drawable ic_mtrl_chip_checked_circle 0x7f0800ac
 int drawable ic_mtrl_chip_close_circle 0x7f0800ad
 int drawable ic_search_black_24 0x7f0800ae
+int drawable info 0x7f0800fc
 int drawable logouticon 0x7f0800af
 int drawable m3_avd_hide_password 0x7f0800b0
 int drawable m3_avd_show_password 0x7f0800b1
@@ -3474,6 +3475,8 @@ int id neverCompleteToEnd 0x7f0a0156
 int id neverCompleteToStart 0x7f0a0157
 int id noScroll 0x7f0a0158
 int id noState 0x7f0a0159
+int id nomAlumne 0x7f0a0225
+int id nomApp 0x7f0a0226
 int id none 0x7f0a015a
 int id normal 0x7f0a015b
 int id north 0x7f0a015c
@@ -3516,6 +3519,7 @@ int id pathRelative 0x7f0a0180
 int id peekHeight 0x7f0a0181
 int id percent 0x7f0a0182
 int id performance 0x7f0a0183
+int id personal 0x7f0a0227
 int id pin 0x7f0a0184
 int id position 0x7f0a0185
 int id postLayout 0x7f0a0186
@@ -3657,6 +3661,7 @@ int id unlabeled 0x7f0a020d
 int id up 0x7f0a020e
 int id useLogo 0x7f0a020f
 int id username_create_ET 0x7f0a0210
+int id valoracio 0x7f0a0228
 int id vertical_only 0x7f0a0211
 int id view_offset_helper 0x7f0a0212
 int id view_transition 0x7f0a0213
@@ -3797,6 +3802,7 @@ int layout activity_edit_med 0x7f0d001d
 int layout activity_main 0x7f0d001e
 int layout activity_med_detail 0x7f0d001f
 int layout activity_meds_list 0x7f0d0020
+int layout activity_personal 0x7f0d0075
 int layout activity_qr_code_scanner 0x7f0d0021
 int layout activity_sign_up 0x7f0d0022
 int layout activity_splash 0x7f0d0023
@@ -4087,6 +4093,7 @@ int string side_sheet_behavior 0x7f1300c5
 int string status_bar_notification_info_overflow 0x7f1300c6
 int string submit 0x7f1300c7
 int string usuari 0x7f1300c8
+int string valoracio 0x7f1300c9
 int style AlertDialog_AppCompat 0x7f140000
 int style AlertDialog_AppCompat_Light 0x7f140001
 int style Animation_AppCompat_Dialog 0x7f140002

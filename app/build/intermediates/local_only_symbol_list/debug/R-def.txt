@@ -14,6 +14,7 @@ drawable gradient_main
 drawable ic_action_close
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable info
 drawable logouticon
 drawable medslogo
 drawable qrcodeicon
@@ -39,8 +40,11 @@ id logout
 id medImageView
 id medlogo_iv
 id meds_recyclerview
+id nomAlumne
+id nomApp
 id password
 id password_create
+id personal
 id previewView
 id saveBtn
 id scanBtn
@@ -52,12 +56,14 @@ id tvNom
 id txt_link
 id txt_title
 id username_create_ET
+id valoracio
 id visit
 layout activity_add_new_medicine
 layout activity_edit_med
 layout activity_main
 layout activity_med_detail
 layout activity_meds_list
+layout activity_personal
 layout activity_qr_code_scanner
 layout activity_sign_up
 layout activity_splash
@@ -86,6 +92,7 @@ string introdueix_el_nom
 string project_id
 string submit
 string usuari
+string valoracio
 style Base.Theme.Medrebost
 style Theme.Medrebost
 xml backup_rules

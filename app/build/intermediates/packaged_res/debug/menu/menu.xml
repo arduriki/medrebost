@@ -8,4 +8,10 @@
         android:title="Logout"
         app:showAsAction="always"/>
 
+    <item
+        android:id="@+id/personal"
+        android:icon="@drawable/info"
+        android:title="Info"
+        app:showAsAction="always"/>
+
 </menu>

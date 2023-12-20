@@ -113,6 +113,10 @@ public class MedsListActivity extends AppCompatActivity {
             Intent i = new Intent(MedsListActivity.this, MainActivity.class);
             startActivity(i);
             return true;
+        } else if (R.id.personal == item.getItemId()) {
+            Intent i = new Intent(MedsListActivity.this, PersonalActivity.class);
+            startActivity(i);
+            return true;
         } else {
             return super.onOptionsItemSelected(item);
         }
